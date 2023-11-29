@@ -4,5 +4,5 @@ export const mariadbconn = await createConnection({
     host: 'localhost',
     user: 'root',
     password: 'qwer',
-    database: 'social-app'
+    database: 'social_app'
 });
