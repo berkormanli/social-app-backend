@@ -12,8 +12,6 @@ import { bearer } from '@elysiajs/bearer';
 import { jwt } from "@elysiajs/jwt";
 import { cookie } from "@elysiajs/cookie";
 
-import { mariadbconn as db } from './lib/db';
-
 
 const app = new Elysia()
 .use(helmet())

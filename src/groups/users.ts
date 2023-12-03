@@ -2,7 +2,6 @@ import { Elysia } from "elysia";
 import { mariadbconn as db } from '../lib/db';
 
 function retrieveUserById() {
-    
 }
 
 async function retrieveUserByHandle({ params: { handle }}) {
@@ -17,7 +16,7 @@ return new Response(JSON.stringify(results));
 }
 
 function retrieveLastRegisteredUser() {
-    
+  // TODO: Implement this
 }
 
 export const users = new Elysia({ prefix: '/users'})
